@@ -6,3 +6,6 @@ private/
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# Local tooling
+.claude/
