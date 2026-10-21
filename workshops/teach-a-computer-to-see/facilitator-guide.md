@@ -103,6 +103,13 @@ Hand out the challenge briefs (see [handouts.md](handouts.md)).
 ### Segment 8: Wrap-up (1:25–1:30)
 
 - Say the three takeaways (see [agenda.md](agenda.md)).
+- **Career connection (1 minute):** *"Everything you did today is part of a real job."* Map it back:
+  - Collecting and labeling images → **data annotator / AI trainer**
+  - Training and improving the model → **machine learning engineer** or **data scientist**
+  - Trying to break it → **QA and test engineer**
+  - Designing for a real user → **UX and accessibility designer**
+  - The bias discussion → **AI ethics and policy** roles
+  - Add: *"And nurses, farmers, mechanics and store managers are starting to use tools like this too. Knowing how AI works is becoming a skill in almost every job."* If you have a local example (an NC employer, a community college program), mention it here.
 - Hand out the exit survey and take-home sheet, plus certificates if you're using them.
 - **Privacy close-out:** *"Before you go, close your browser tab. Your pictures disappear when the tab closes, and that's on purpose."* Then do a quick check of each device yourself.
 

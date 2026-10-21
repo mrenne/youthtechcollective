@@ -14,6 +14,20 @@ By the end, participants can:
 2. Train, test and improve their own image classifier.
 3. Show how bad or unbalanced training data makes an AI fail, and connect it to real-world AI bias.
 4. Design a model that solves a real problem, and judge whether it is reliable enough to use.
+5. Name at least two careers that involve building, testing or overseeing AI systems, and the skills those jobs use.
+
+## Workforce development connections
+
+| Workshop activity | Workforce skill practiced |
+|---|---|
+| Training and improving a model | AI/ML literacy, data collection and quality |
+| Break the model / accuracy testing | Quality assurance, testing, critical thinking |
+| Challenge briefs with a real user | Problem solving, user-centered design |
+| Working in pairs, swapping roles | Teamwork and communication |
+| Showcase | Presenting technical work, giving and taking feedback |
+| Bias discussion | Responsible and ethical use of technology |
+
+**Careers to highlight:** machine learning engineer, data scientist, data annotator / AI trainer, QA and test engineer, UX and accessibility designer, AI ethics and policy specialist, and roles in fields that increasingly use AI, such as healthcare imaging, agriculture, manufacturing and retail.
 
 ## Run of show
 
@@ -26,7 +40,7 @@ By the end, participants can:
 | 0:50–0:55 | **Break** | Facilitator hands out challenge briefs. |
 | 0:55–1:15 | **Build 2: Solve a problem** | Each pair picks a challenge brief (or pitches their own) aimed at a real user, then builds a 2–4 class model. Required: a "nothing / background" class, a test on another pair, and an accuracy score. |
 | 1:15–1:25 | **Showcase** | Gallery walk: half the pairs demo while the other half visit, then swap. Visitors try to fool each model and judge whether it's reliable enough for its intended user. |
-| 1:25–1:30 | **Wrap-up** | Three takeaways (below), a 3-question exit survey and the take-home sheet. |
+| 1:25–1:30 | **Wrap-up and career connection** | Three takeaways (below), a 1-minute "who does this for a living?" career connection, the exit survey and the take-home sheet. |
 
 ## Three takeaways to say out loud at the end
 

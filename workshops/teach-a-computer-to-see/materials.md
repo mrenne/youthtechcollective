@@ -32,7 +32,7 @@ Prices were checked in October 2026 unless marked **est.** (estimate). Retail pr
 | Item | Price | Notes |
 |---|---|---|
 | Take-home sheet, 1 page × 16 | ~$2 **est.** | Ask the partner to print it. Many will do it free. |
-| Exit survey, ½ page × 16 (or use a QR code to a Google Form for $0) | ~$1 **est.** | |
+| Exit survey, 1 page × 16 (or use a QR code to a Google Form for $0) | ~$1 **est.** | |
 | Photo/media release forms (if the partner doesn't have their own) | ~$1 **est.** | Most libraries already have a form. Use theirs. |
 | "Certified AI Trainer" certificates on cardstock | ~$3 **est.** | Optional. Teens often prefer a sticker or a digital badge they can share. |
 | **Per-session total** | **~$5–10** | **$0** if the partner prints. |

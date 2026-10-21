@@ -51,16 +51,19 @@ Go to **teachablemachine.withgoogle.com**, click *Get Started*, and choose:
 2. Train a pose model that counts reps of an exercise.
 3. Export a model and use it on a webpage with the free p5.js sample code from Teachable Machine.
 
+**Where this can lead**
+The skills you used today are used in real jobs: **machine learning engineer**, **data scientist**, **AI trainer / data annotator**, **QA tester**, **UX and accessibility designer**, and **AI ethics and policy** roles. AI is also becoming part of jobs in healthcare, agriculture, manufacturing and more. To keep building toward these careers, look for computer science and CTE courses at your school, community college programs, and youth tech clubs and camps near you.
+
 **Keep going**
 - micro:bit CreateAI (createai.microbit.org): train AI on movement and run it on a micro:bit
 - Machine Learning for Kids (machinelearningforkids.co.uk): connect AI models to Scratch and Python projects
 - Ask your librarian about the next workshop!
 
-*Parents and caregivers: Teachable Machine is a free Google tool that runs in your web browser. In its default mode, training images stay on your device. No account is needed to try it.*
+*Parents and caregivers: this workshop is part of NC Youth Tech Collective's free workforce development program. It gives teens hands-on experience with in-demand technology skills (AI literacy, testing, problem solving and teamwork) and exposure to tech careers. Teachable Machine is a free Google tool that runs in your web browser. In its default mode, training images stay on your device. No account is needed to try it.*
 
 ---
 
-## C. Exit survey (½ page; can also be a Google Form with a QR code)
+## C. Exit survey (1 page; can also be a Google Form with a QR code)
 
 **Age:** ____   **First time at one of these workshops?** ☐ Yes ☐ No
 
@@ -73,7 +76,12 @@ Go to **teachablemachine.withgoogle.com**, click *Get Started*, and choose:
 3. Finish this sentence: *"AI makes mistakes when..."*
    ______________________________________________
 
-4. Would you come to another workshop like this? ☐ Yes ☐ Maybe ☐ No
+4. After today, how interested are you in a job or class that involves technology or AI?
+   ☐ Not interested  ☐ A little  ☐ Interested  ☐ Very interested
+
+5. Name one job where people build or test AI: ____________________
+
+6. Would you come to another workshop like this? ☐ Yes ☐ Maybe ☐ No
    What would you want to build next? ____________________
 
-*Question 3 is your best evidence of learning. Look for answers that mention data, examples or training.*
+*Question 3 is your best evidence of learning. Look for answers that mention data, examples or training. Questions 4 and 5 measure career interest and career awareness, which are the outcomes workforce development funders usually ask about.*
