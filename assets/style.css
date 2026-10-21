@@ -1,34 +1,45 @@
 /* NC Youth Tech Collective — landing page styles */
 
+/* Palette sampled from the logo: navy #112546, blue #267dc4, orange #fe742b, teal #2eaead */
 :root {
-  --brand: #0f5c5c;
-  --brand-2: #157a6e;
-  --accent: #f2994a;
+  --navy: #112546;
+  --brand: #1f6cad;
+  --brand-2: #112546;
+  --accent: #f26a1f;
+  --teal: #1f8f8e;
   --on-brand: #ffffff;
-  --bg: #fbfaf7;
-  --bg-alt: #eef4f2;
+  --brand-hover: #112546;
+  --band-from: #112546;
+  --band-to: #1f6cad;
+  --band-text: #ffffff;
+  --bg: #f8fafc;
+  --bg-alt: #edf3f9;
   --surface: #ffffff;
-  --text: #1c2526;
-  --muted: #4d5a5c;
-  --border: #d9e3e1;
+  --text: #13213a;
+  --muted: #4a5873;
+  --border: #d8e1ec;
   --radius: 16px;
-  --shadow: 0 1px 2px rgba(16, 40, 40, .06), 0 8px 24px rgba(16, 40, 40, .06);
+  --shadow: 0 1px 2px rgba(17, 37, 70, .06), 0 8px 24px rgba(17, 37, 70, .08);
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-head: "Space Grotesk", var(--font-body);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --brand: #2fa597;
-    --brand-2: #1d7f74;
-    --accent: #f5a764;
-    --on-brand: #06201f;
-    --bg: #0f1617;
-    --bg-alt: #152022;
-    --surface: #1a2627;
-    --text: #e7eeed;
-    --muted: #a5b4b2;
-    --border: #2a3a3b;
+    --brand: #5aa8e6;
+    --brand-2: #2b5f99;
+    --accent: #fe8a4a;
+    --teal: #4cc4c2;
+    --on-brand: #0b1730;
+    --brand-hover: #8cc4f0;
+    --band-from: #173563;
+    --band-to: #1f5a96;
+    --bg: #0b1730;
+    --bg-alt: #0f1f3d;
+    --surface: #142848;
+    --text: #e8eef7;
+    --muted: #a9b7cc;
+    --border: #22385c;
     --shadow: none;
   }
 }
@@ -82,7 +93,7 @@ img, svg { max-width: 100%; display: block; }
   border: 2px solid var(--brand);
   transition: transform .15s ease, background .15s ease;
 }
-.btn:hover { transform: translateY(-1px); background: var(--brand-2); border-color: var(--brand-2); }
+.btn:hover { transform: translateY(-1px); background: var(--brand-hover); border-color: var(--brand-hover); }
 .btn-small { padding: .45em 1em; font-size: .95rem; }
 .btn-ghost { background: transparent; color: var(--brand); }
 .btn-ghost:hover { background: var(--bg-alt); color: var(--brand); border-color: var(--brand); }
@@ -135,7 +146,12 @@ img, svg { max-width: 100%; display: block; }
 .hero-inner { display: grid; grid-template-columns: 1.15fr .85fr; gap: 48px; align-items: center; }
 .lead { font-size: 1.2rem; color: var(--muted); max-width: 36em; }
 .lead strong { color: var(--text); }
-.hero-art svg { width: 100%; height: auto; filter: drop-shadow(0 18px 30px rgba(15, 92, 92, .18)); }
+.hero-art img {
+  width: 100%; height: auto;
+  border-radius: 28px;
+  box-shadow: 0 18px 40px rgba(17, 37, 70, .25);
+}
+.brand-mark { border-radius: 10px; }
 
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; }
@@ -211,7 +227,7 @@ img, svg { max-width: 100%; display: block; }
 /* Partners */
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 2rem 0; }
 .panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; }
-.panel-brand { background: var(--brand); color: var(--on-brand); border-color: var(--brand); }
+.panel-brand { background: linear-gradient(135deg, var(--band-from), var(--band-to)); color: var(--band-text); border-color: transparent; }
 .check-list { list-style: none; padding: 0; margin: 0; }
 .check-list li { position: relative; padding-left: 30px; margin-bottom: 10px; }
 .check-list li::before {
@@ -234,9 +250,11 @@ img, svg { max-width: 100%; display: block; }
 .faq details p { color: var(--muted); padding-bottom: 8px; }
 
 /* Contact */
-.contact { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: var(--on-brand); }
-.contact .section-lead { color: var(--on-brand); opacity: .9; }
-.contact-email { color: var(--on-brand); font-weight: 600; text-underline-offset: 3px; }
+.contact { background: linear-gradient(135deg, var(--band-from), var(--band-to)); color: var(--band-text); }
+.contact .section-lead { color: var(--band-text); opacity: .9; }
+.contact .btn-light { background: #ffffff; color: #112546; border-color: #ffffff; }
+.contact .btn-light:hover { background: #edf3f9; border-color: #edf3f9; }
+.contact-email { color: var(--band-text); font-weight: 600; text-underline-offset: 3px; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--border); padding: 28px 0; color: var(--muted); font-size: .92rem; }
