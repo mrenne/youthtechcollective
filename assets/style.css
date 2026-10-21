@@ -218,7 +218,7 @@ img, svg { max-width: 100%; display: block; }
   content: "✓"; position: absolute; left: 0; top: 0;
   color: var(--accent); font-weight: 700;
 }
-#about .two-col { margin: 0; gap: 48px; }
+#about .two-col { margin-block: 0; margin-inline: auto; gap: 48px; }
 @media (max-width: 760px) { .two-col { grid-template-columns: 1fr; } }
 
 /* FAQ */
@@ -236,6 +236,7 @@ img, svg { max-width: 100%; display: block; }
 /* Contact */
 .contact { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: var(--on-brand); }
 .contact .section-lead { color: var(--on-brand); opacity: .9; }
+.contact-email { color: var(--on-brand); font-weight: 600; text-underline-offset: 3px; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--border); padding: 28px 0; color: var(--muted); font-size: .92rem; }
