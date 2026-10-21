@@ -1,6 +1,6 @@
 # NC Youth Tech Collective
 
-Free, hands-on technology and **workforce development** workshops for teens (ages 12–17) in North Carolina, offered in partnership with local libraries, makerspaces and youth organizations.
+Free and low-cost, hands-on technology and **workforce development** workshops for teens (ages 12–17) in North Carolina, offered in partnership with local libraries, makerspaces and youth organizations.
 
 Workshops cover coding, artificial intelligence, electronics, robotics and related technologies. Each one is designed so teens build something real, understand how it works, and leave able to keep going on their own.
 
@@ -23,7 +23,7 @@ More workshops are in development.
 
 ## For partner organizations
 
-Interested in hosting a workshop at your library, makerspace or youth program? Workshops are free to participants. The host provides the space, devices and promotion, and we provide the curriculum, instruction and materials. [Open an issue](https://github.com/mrenne/youthtechcollective/issues) to get in touch.
+Interested in hosting a workshop at your library, makerspace or youth program? Workshops are free or low-cost for participants. The host provides the space, devices and promotion, and we provide the curriculum, instruction and materials. [Open an issue](https://github.com/mrenne/youthtechcollective/issues) to get in touch.
 
 ## For educators
 
