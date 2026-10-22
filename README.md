@@ -2,13 +2,13 @@
 
 Free/low-cost, hands-on technology and **workforce development** workshops for teens (ages 12–17) in North Carolina, offered in partnership with local libraries, makerspaces and youth organizations.
 
-Workshops cover coding, artificial intelligence, electronics, robotics and related technologies. Each one is designed so teens build something real, understand how it works, and leave able to keep going on their own.
+Workshops cover coding, artificial intelligence, data science, electronics, robotics and related technologies. Each one is designed so teens build something real, understand how it works, and leave able to keep going on their own.
 
 ## Workforce development
 
 Every workshop is built to give teens early, practical preparation for future careers and education in technology:
 
-- **In-demand technical skills:** AI and machine learning literacy, programming, electronics and engineering design
+- **In-demand technical skills:** AI and machine learning literacy, data science, programming, electronics and engineering design
 - **Career-ready skills:** teamwork, problem solving, testing and debugging, and presenting work to others
 - **Career exposure:** each workshop connects what teens build to real jobs and the people who do them
 - **Next steps:** teens and families leave with free tools to keep learning, plus pointers to further pathways such as school CTE courses, community college programs and other youth tech programs
