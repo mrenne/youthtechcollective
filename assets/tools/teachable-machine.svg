@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="t">
+  <title id="t">Illustration of training an image model: three classes of example pictures feed a Train step, and a preview shows the model's confidence for each class</title>
+  <!-- Browser window -->
+  <rect x="10" y="10" width="500" height="400" rx="18" fill="#ffffff" stroke="#d8e1ec" stroke-width="2"/>
+  <path d="M10 28a18 18 0 0 1 18-18h464a18 18 0 0 1 18 18v20H10z" fill="#edf3f9"/>
+  <circle cx="36" cy="29" r="6" fill="#fe742b"/>
+  <circle cx="56" cy="29" r="6" fill="#f5c04a"/>
+  <circle cx="76" cy="29" r="6" fill="#2eaead"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <!-- Class cards -->
+    <g>
+      <rect x="28" y="66" width="174" height="96" rx="12" fill="#f8fafc" stroke="#d8e1ec" stroke-width="2"/>
+      <text x="44" y="92" font-size="16" font-weight="700" fill="#13213a">Rock</text>
+      <g fill="#fe742b"><rect x="44" y="106" width="30" height="30" rx="6"/><rect x="80" y="106" width="30" height="30" rx="6" opacity=".8"/><rect x="116" y="106" width="30" height="30" rx="6" opacity=".6"/><rect x="152" y="106" width="30" height="30" rx="6" opacity=".4"/></g>
+    </g>
+    <g>
+      <rect x="28" y="176" width="174" height="96" rx="12" fill="#f8fafc" stroke="#d8e1ec" stroke-width="2"/>
+      <text x="44" y="202" font-size="16" font-weight="700" fill="#13213a">Paper</text>
+      <g fill="#267dc4"><rect x="44" y="216" width="30" height="30" rx="6"/><rect x="80" y="216" width="30" height="30" rx="6" opacity=".8"/><rect x="116" y="216" width="30" height="30" rx="6" opacity=".6"/><rect x="152" y="216" width="30" height="30" rx="6" opacity=".4"/></g>
+    </g>
+    <g>
+      <rect x="28" y="286" width="174" height="96" rx="12" fill="#f8fafc" stroke="#d8e1ec" stroke-width="2"/>
+      <text x="44" y="312" font-size="16" font-weight="700" fill="#13213a">Scissors</text>
+      <g fill="#2eaead"><rect x="44" y="326" width="30" height="30" rx="6"/><rect x="80" y="326" width="30" height="30" rx="6" opacity=".8"/><rect x="116" y="326" width="30" height="30" rx="6" opacity=".6"/><rect x="152" y="326" width="30" height="30" rx="6" opacity=".4"/></g>
+    </g>
+
+    <!-- Connectors into Train -->
+    <g fill="none" stroke="#a9b7cc" stroke-width="3" stroke-linecap="round">
+      <path d="M202 114 C 224 114, 222 214, 240 220"/>
+      <path d="M202 224 L 240 224"/>
+      <path d="M202 334 C 224 334, 222 234, 240 228"/>
+      <path d="M320 224 L 344 224"/>
+    </g>
+    <path d="M344 216 L 354 224 L 344 232 z" fill="#a9b7cc"/>
+
+    <!-- Train step -->
+    <rect x="240" y="194" width="80" height="60" rx="14" fill="#1f6cad"/>
+    <text x="280" y="230" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Train</text>
+
+    <!-- Preview panel -->
+    <rect x="356" y="66" width="138" height="316" rx="12" fill="#f8fafc" stroke="#d8e1ec" stroke-width="2"/>
+    <text x="370" y="92" font-size="15" font-weight="700" fill="#13213a">Preview</text>
+    <rect x="370" y="104" width="110" height="92" rx="8" fill="#13213a"/>
+    <!-- simple fist -->
+    <g fill="#f4c7a1">
+      <rect x="400" y="130" width="50" height="42" rx="14"/>
+      <rect x="392" y="140" width="14" height="24" rx="7"/>
+    </g>
+    <g stroke="#d9a47d" stroke-width="2" stroke-linecap="round">
+      <path d="M414 132 v14"/><path d="M426 132 v14"/><path d="M438 132 v14"/>
+    </g>
+
+    <g font-size="12" fill="#13213a">
+      <text x="370" y="226" font-weight="700">Rock</text><text x="480" y="226" text-anchor="end">92%</text>
+      <rect x="370" y="233" width="110" height="12" rx="6" fill="#e2e8f0"/><rect x="370" y="233" width="101" height="12" rx="6" fill="#fe742b"/>
+
+      <text x="370" y="276" font-weight="700">Paper</text><text x="480" y="276" text-anchor="end">5%</text>
+      <rect x="370" y="283" width="110" height="12" rx="6" fill="#e2e8f0"/><rect x="370" y="283" width="12" height="12" rx="6" fill="#267dc4"/>
+
+      <text x="370" y="326" font-weight="700">Scissors</text><text x="480" y="326" text-anchor="end">3%</text>
+      <rect x="370" y="333" width="110" height="12" rx="6" fill="#e2e8f0"/><rect x="370" y="333" width="12" height="12" rx="6" fill="#2eaead"/>
+    </g>
+  </g>
+</svg>

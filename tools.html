@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tools &amp; Technologies | NC Youth Tech Collective</title>
+  <meta name="description" content="The tools and technologies teens learn with and about in NC Youth Tech Collective workshops.">
+  <!-- Unlisted page: shared by direct link only. Remove this tag when the page is linked from the main site. -->
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#112546">
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/tools/tools.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="NC Youth Tech Collective home">
+        <img class="brand-mark" src="assets/logo-mark.png" alt="" width="40" height="40">
+        <span>NC Youth Tech <span class="brand-accent">Collective</span></span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav-links">
+          <li><a href="index.html#workforce">Workforce</a></li>
+          <li><a href="index.html#workshops">Workshops</a></li>
+          <li><a href="tools.html" aria-current="page">Tools</a></li>
+          <li><a href="index.html#families">Families</a></li>
+          <li><a class="btn btn-small" href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section tools-intro">
+      <div class="container">
+        <p class="eyebrow">Tools &amp; technologies</p>
+        <h1>What teens build with</h1>
+        <p class="section-lead">In our workshops, teens learn hands-on with the same kinds of tools used in classrooms, labs and tech jobs. Here are some of the tools and technologies they'll work with and learn about.</p>
+      </div>
+    </section>
+
+    <section class="section tools-list" aria-label="Tools and technologies">
+      <div class="container">
+        <div class="tool-grid">
+
+          <!--
+            Tool card template: copy this <article> block for each new tool.
+            - Put the image in assets/tools/ (SVG, PNG or JPG; a 5:4 landscape image works best).
+            - Keep the description to 2–3 sentences.
+          -->
+          <article class="tool-card" id="microbit">
+            <div class="tool-media">
+              <img src="assets/tools/microbit.svg" alt="Illustration of a micro:bit: a small circuit board with a 5×5 grid of LEDs showing a heart, buttons labeled A and B, and gold connector pins along the bottom edge" width="520" height="420">
+            </div>
+            <div class="tool-body">
+              <p class="tool-category">Physical computing</p>
+              <h2>micro:bit</h2>
+              <p>The micro:bit is a pocket-sized computer designed for learning. It has a grid of LED lights, buttons, a speaker, a microphone and built-in sensors that detect motion, direction, light and temperature. It can also talk to other devices by radio and Bluetooth.</p>
+              <p>Teens program it with drag-and-drop blocks, JavaScript or Python to build things like step counters, games and wearable AI that recognizes their movements.</p>
+              <ul class="chips" aria-label="Skills">
+                <li>Coding</li>
+                <li>Electronics</li>
+                <li>Sensors</li>
+                <li>AI / machine learning</li>
+              </ul>
+              <a class="text-link" href="https://microbit.org/" target="_blank" rel="noopener">Learn more at microbit.org &rarr;</a>
+            </div>
+          </article>
+
+          <article class="tool-card" id="teachable-machine">
+            <div class="tool-media">
+              <img src="assets/tools/teachable-machine.svg" alt="Illustration of training an AI model: example pictures sorted into Rock, Paper and Scissors feed a Train step, and a preview shows the model is 92% sure it sees Rock" width="520" height="420">
+            </div>
+            <div class="tool-body">
+              <p class="tool-category">Artificial intelligence</p>
+              <h2>Google Teachable Machine</h2>
+              <p>Teachable Machine is a free, web-based tool from Google that lets anyone train their own machine learning model without writing code. Teens teach a computer to recognize images, sounds or body poses by showing it examples with a webcam or microphone, then test how well it learned.</p>
+              <p>It runs right in the web browser with no account needed, and by default the examples stay on the device. Finished models can be used in websites, apps and other projects.</p>
+              <ul class="chips" aria-label="Skills">
+                <li>AI / machine learning</li>
+                <li>Data quality</li>
+                <li>Testing &amp; QA</li>
+                <li>Responsible tech</li>
+              </ul>
+              <a class="text-link" href="https://teachablemachine.withgoogle.com/" target="_blank" rel="noopener">Learn more at Teachable Machine &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container narrow center">
+        <h2>Bring these tools to your teens</h2>
+        <p class="section-lead">Want to host a workshop or support the program? Reach us at <a class="contact-email" href="mailto:mike@ncyouthtechcollective.org">mike@ncyouthtechcollective.org</a>.</p>
+        <div class="cta-row center-row">
+          <a class="btn btn-light" href="mailto:mike@ncyouthtechcollective.org">Email us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> NC Youth Tech Collective. Free/low-cost technology and workforce development workshops for North Carolina teens.</p>
+      <p><a href="mailto:mike@ncyouthtechcollective.org">mike@ncyouthtechcollective.org</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
