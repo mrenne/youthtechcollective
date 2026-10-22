@@ -59,7 +59,7 @@ The skills you used today are used in real jobs: **machine learning engineer**, 
 - Machine Learning for Kids (machinelearningforkids.co.uk): connect AI models to Scratch and Python projects
 - Ask your librarian about the next workshop!
 
-*Parents and caregivers: this workshop is part of NC Youth Tech Collective's free and low-cost workforce development program. It gives teens hands-on experience with in-demand technology skills (AI literacy, testing, problem solving and teamwork) and exposure to tech careers. Teachable Machine is a free Google tool that runs in your web browser. In its default mode, training images stay on your device. No account is needed to try it.*
+*Parents and caregivers: this workshop is part of NC Youth Tech Collective's free/low-cost workforce development program. It gives teens hands-on experience with in-demand technology skills (AI literacy, testing, problem solving and teamwork) and exposure to tech careers. Teachable Machine is a free Google tool that runs in your web browser. In its default mode, training images stay on your device. No account is needed to try it.*
 
 ---
 
